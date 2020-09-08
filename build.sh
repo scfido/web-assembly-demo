@@ -16,7 +16,7 @@ csc /target:library \
    /r:$WASM_SDK/wasm-bcl/wasm/Facades/netstandard.dll \
    /r:$WASM_SDK/wasm-bcl/wasm/System.Net.Http.dll \
    /r:$WASM_SDK/framework/WebAssembly.Bindings.dll \
-    Hello.cs
+    src/Video/Player.cs
 
 #   /r:$WASM_SDK/framework/WebAssembly.Net.Http.dll \
 mono $WASM_SDK/packager.exe --copy=always --out=./wwwroot .output/player.dll
