@@ -8,7 +8,9 @@ namespace Video
     {
         static string Play()
         {
-            return "ok";
+            var a=0;
+            a=a+1;
+            return "ok" + a;
         }
     }
 }

@@ -1,6 +1,5 @@
 wwwroot/managed
 wwwroot/dotnet.js
 wwwroot/dotnet.wasm
-wwwroot/mono-config.js
 wwwroot/runtime.js
 .output
